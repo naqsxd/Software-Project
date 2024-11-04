@@ -104,7 +104,7 @@ function SinglePage() {
               </div>
             </div>
           </div>
-          <p className="title">Sizes</p>
+          <p className="title" className="test">Sizes</p>
           <div className="sizes">
             <div className="size">
               <img src="/size.png" alt="" />
@@ -146,7 +146,7 @@ function SinglePage() {
                 <span>Restaurant</span>
                 <p>{post.postDetail.restaurant}m away</p>
               </div>
-            </div>
+            </div >
           </div>
           <p className="title">Location</p>
           <div className="mapContainer">
